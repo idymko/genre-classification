@@ -1,0 +1,9 @@
+.DS_Store
+.log
+wandb/
+mlruns/
+outputs/
+multirun/
+artifacts/
+__pycache__/
+.ipynb_checkpoints/
