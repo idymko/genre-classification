@@ -4,6 +4,13 @@ End-to-End ML Pipeline that produces a trained Random Forest model.
 
 This project is copied from Exercise 14 of "udacity-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution_dk".
 
+## Run directly from repo
+```bash
+mlflow run -v [version] [URL]
+```
+
+> NOTE: anyone using the pipeline need to be logged in to ``wandb`` (``wandb login``)
+
 # Instructions
 
 In this exercise we are going to bring everything together in a complete ML pipeline that
