@@ -4,9 +4,16 @@ End-to-End ML Pipeline that produces a trained Random Forest model.
 
 This project is copied from Exercise 14 of "udacity-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution_dk".
 
-## Run directly from repo
+## Run your release
+Once you have released in GitHub, you can run your release like this:
 ```bash
-mlflow run -v [version] [URL]
+mlflow run [github URL] -v [version] -P ...
+```
+So for example this is what we run in the video (note that the repository might not be there anymore, this is just an example):
+```bash
+mlflow run https://github.com/idymko/genre-classification.git \ 
+         -v v1.0.0 \
+         -P hydra_options="main.project_name=remote_execution"
 ```
 
 > NOTE: anyone using the pipeline need to be logged in to ``wandb`` (``wandb login``)
