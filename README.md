@@ -86,7 +86,7 @@ Each step can be run separetely or in groups, e.g.:
 - ``mlflow run . -P hydra_options="main.execute_steps='evaluate'"``
 
 Data and model artifacts are stored in weight and biases:
-https://wandb.ai/dkysylychyn-udacity/exercise_14/overview
+https://wandb.ai/dkysylychyn-udacity/genre_classification_prod/overview
 
 The following diagram contains the whole pipeline (screenshot from weight and biases:
   ![screenshot](full_ml_pipeline.png "screenshot")
